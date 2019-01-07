@@ -8,6 +8,10 @@ npm install
 ```
 - To start the project in development mode:
 ```bash
+npm run dev
+```
+- To start the project in production mode:
+```bash
 npm start
 ```
 - To build the project:
@@ -85,7 +89,7 @@ Data-table component's design is fully responsive, making it work seamlessly in 
 
 ##### Deployment
 
-This project has been deployed on Heroku. Here is the link for the deployed version:
+This project has been deployed on Heroku. Here is the link for the deployed version: [Heroku Link](https://britecore-test-task.herokuapp.com/)
 
 ## Questionnaire
 

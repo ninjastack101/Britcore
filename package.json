@@ -11,7 +11,8 @@
     "e2e": "node test/e2e/runner.js",
     "test": "jest",
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "heroku-postbuild": "npm install && npm run build"
   },
   "dependencies": {
     "@vue/eslint-config-prettier": "^4.0.1",
@@ -86,7 +87,7 @@
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
-    "webpack-dev-server": "^2.9.1",
+    "webpack-dev-server": ">=3.1.11",
     "webpack-merge": "^4.1.0"
   },
   "engines": {
