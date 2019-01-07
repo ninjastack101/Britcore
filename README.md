@@ -2,6 +2,10 @@
 This project is a solution to Britecore's Frontend hiring test.
 
 ### Setup
+- To install dependencies and node modules:
+```bash
+npm install
+```
 - To start the project in development mode:
 ```bash
 npm start
@@ -71,6 +75,8 @@ In order to make data-table truly generic and reusable, component has been desig
 *TableComponent* and *TableColumn* are logically separated. This makes it possible to pass custom data to *TableComponent* and corresponding column headings to *TableColumn* along with column metadata to enable or disable sorting/filtering as per requirements.
 
 As there is no tight coupling between *TableComponent* and *TableColumn*, let it be any dataset, this data-table can be used to display data in tables.
+
+**Note**: This is demonstrated in test cases. While writing test cases, data-table is initialized with different set of data.
 
 ##### Responsive Design
 
