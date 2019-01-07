@@ -45,7 +45,7 @@ export default class Row {
     }
 
     if (dataType === 'numeric') {
-      return value
+      return (typeof value === 'string') ? parseFloat(value) : value
     }
 
     return value.toString()
